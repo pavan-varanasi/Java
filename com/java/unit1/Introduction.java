@@ -9,7 +9,7 @@ public class Introduction {
 		this.first = x;
 		this.second = y;
 		
-		sum = x+y;
+		sum = x + y;
 	}
 
 	public static void main(String[] args) {
