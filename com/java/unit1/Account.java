@@ -9,6 +9,15 @@ public class Account {
 	private String lastName;
 	private Date dob;
 	
+	public Account(int accNo, String accType, String firstName,
+			String lastName, Date dob) {
+		super();
+		this.accNo = accNo;
+		this.accType = accType;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.dob = dob;
+	}
 	public int getAccNo() {
 		return accNo;
 	}

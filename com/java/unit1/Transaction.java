@@ -10,6 +10,16 @@ public class Transaction {
 	private Date upDate;
 	private double cash;
 	
+	public Transaction(long transId, Account fromAcc, Account toAcc,
+			Date createDate, Date upDate, double cash) {
+		super();
+		this.transId = transId;
+		this.fromAcc = fromAcc;
+		this.toAcc = toAcc;
+		this.createDate = createDate;
+		this.upDate = upDate;
+		this.cash = cash;
+	}
 	public long getTransId() {
 		return transId;
 	}
